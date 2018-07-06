@@ -1,0 +1,23 @@
+
+<view class="container">
+  <view class='title'>用户登录</view>
+  <!-- 插件功能页功能的实现 -->
+  <functional-page-navigator name="loginAndGetUserInfo" args="" version="develop" bind:success="loginSuccess">
+    <button>登录到插件</button>
+  </functional-page-navigator>
+
+  <!-- <view class="userinfo">
+    <button wx:if="{{!isActive}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击授权并获取头像 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <button wx:if="{{isActive}}" bindtap="showInfo" type="primary" open-type="getUserInfo" lang="zh_CN">
+    获取用户信息
+  </button>
+
+  <view class="userInfo" wx:if="{{isActive}}">
+    <text class="user-info">{{encrytedData}}</text>
+  </view> -->
+</view>

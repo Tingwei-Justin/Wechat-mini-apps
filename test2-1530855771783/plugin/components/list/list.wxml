@@ -1,0 +1,14 @@
+
+<view class='section'>
+    <view>-----------插件部分-----------</view>
+        <view class="section-title">猜猜谁是冠军！</view>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{country}}" >
+            <view class="picker">
+                当前选择：{{country[index]}}
+            </view>
+        </picker>
+    <view>-----------插件部分-----------</view>
+</view>
+<!-- <view wx:for="{{list}}" wx:key="team1">
+  <view>{{item.team1}} : {{item.team2}}</view>
+</view> -->

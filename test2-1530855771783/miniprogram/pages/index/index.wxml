@@ -1,0 +1,6 @@
+<view class="title">
+  <view>Test Information-----世界杯</view>
+</view>
+<list index="{{index}}" bindchangeEvent="changeEvent" />
+<button class='submit' type='primary' bindtap='submitInfo'>submit</button>
+<!-- <userinfo /> -->
